@@ -1,0 +1,21 @@
+nav{
+    max-width: fit-content;
+    height: 100vh;
+    max-width: 10%;
+}
+
+@media (){
+    nav .img{
+        width: 25px;
+    }
+}
+
+main{
+    width: 100vw;
+}
+
+div .nav-bar-col{
+    height: 100vh;
+}
+
+
