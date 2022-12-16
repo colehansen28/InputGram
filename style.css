@@ -307,6 +307,7 @@ main{
 .modal{
     margin: auto;
     width: 60%;
+    max-width: 500px;
     border-radius: .5em;
     background-color: var(--dark-gray);
    padding: 0%;
