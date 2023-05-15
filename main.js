@@ -1,3 +1,13 @@
+// Follow Button
+
+ 
+const followBtn = document.querySelector(".followbtn");
+
+followBtn.addEventListener("click", function(){
+    myFollowerCount = document.getElementById("count").innerHTML = "1257"
+   
+})
+
 // Modal Variables
 
 // modal-1
@@ -116,6 +126,3 @@ openModal9.addEventListener('click', function(){
 closeModal9.addEventListener('click', function(){
     modal9.close();
 })
-
-
-
