@@ -113,7 +113,7 @@ main{
     border-radius: .75em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 1px;
+    gap: 2px;
     text-align: center;
     box-shadow: 0px 2px 8px 2px rgba(70, 70, 70, 0.808);
 }
@@ -121,7 +121,7 @@ main{
 
 .main-header .profile-img{
     background-color: var(--light-gray);
-    border-top-left-radius: .75em;
+    border-radius: .75em;
     padding:.5em;
     display: grid;
     align-items: center;
@@ -131,6 +131,7 @@ main{
 .main-header .profile-img img{
     width: 100%;
     min-width: 80px;
+
     border-radius: .5em;
     box-shadow: 0px 1px 4px 2px rgba(70, 70, 70, 0.508);
 }
@@ -139,29 +140,34 @@ main{
 
 .main-header .box{
     padding: 0.25em;
+
 }
 
 
 .main-header .photos{
     background-color: var(--light-gray);
+    height: 100%;
     margin-top: auto;
     margin-bottom: auto;
     padding: .5em 0;
     display: grid;
     align-items: center;
     justify-content: center;
+    border-radius: .5rem;
     
 }
 
 /*---Header followers square-----*/
 .main-header .followers{
     background-color: var(--light-gray);
+     height: 100%;
     margin-top: auto;
     margin-bottom: auto;
     padding: .5em 0;
     display: grid;
     align-items: center;
     justify-content: center;
+    border-radius: .5rem;
 }
 
 
@@ -169,13 +175,14 @@ main{
 
 .main-header .following{
     background-color: var(--light-gray);
-    border-top-right-radius: .75em;
+     height: 100%;
     margin-top: auto;
     margin-bottom: auto;
     padding: .5em 0;
     display: grid;
     align-items: center;
     justify-content: center;
+    border-radius: .5rem;
 }
 
 
@@ -187,6 +194,7 @@ main{
     display: grid;
     align-items: center;
     padding: .5em;
+    border-radius: .5rem;
 }
 
 .main-header .follow-button .btn{
@@ -276,11 +284,23 @@ main{
     gap: .5em;
 }
 
+.photo-grid-container:hover{
+    cursor: pointer;
+}
+
 .photo-grid button{
     border: solid;
     padding: 0;
     border-color: var(--lightest-gray);
     box-shadow: 0px 2px 4px 1px rgba(41, 41, 41, 0.438);
+    transform: scale(1);
+    transition: all .25s ease;
+}
+
+.photo-grid button:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all .25s ease;
 }
 
 .photo-grid a:hover{
@@ -302,7 +322,7 @@ main{
     max-width: 500px;
     border-radius: .5em;
     background-color: var(--dark-gray);
-   padding: 0%;
+    padding: 0%;
     box-sizing: border-box;
     padding-bottom: 1em;
 }
@@ -447,7 +467,6 @@ background: var(--darkest-gray-hover);
         font-size: 2em;
     }
 }
-
 
 
 
