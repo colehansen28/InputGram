@@ -146,7 +146,7 @@ main{
 
 .main-header .photos{
     background-color: var(--light-gray);
-    height: 100%;
+    height: auto;
     margin-top: auto;
     margin-bottom: auto;
     padding: .5em 0;
@@ -160,7 +160,7 @@ main{
 /*---Header followers square-----*/
 .main-header .followers{
     background-color: var(--light-gray);
-     height: 100%;
+     height: auto;
     margin-top: auto;
     margin-bottom: auto;
     padding: .5em 0;
@@ -175,7 +175,7 @@ main{
 
 .main-header .following{
     background-color: var(--light-gray);
-     height: 100%;
+     height: auto;
     margin-top: auto;
     margin-bottom: auto;
     padding: .5em 0;
