@@ -2,10 +2,18 @@
 
  
 const followBtn = document.querySelector(".followbtn");
+let followtext = document.querySelector(".followtext");
 
 followBtn.addEventListener("click", function(){
     myFollowerCount = document.getElementById("count").innerHTML = "1257"
-   
+    followtext.innerText = "unfollow"
+    if(followtext.innerText = "unfollow"){
+        followBtn.addEventListener("click", function(){
+            myFollowerCount = document.getElementById("count").innerHTML = "1256"
+            followtext.innerText = "follow"
+        })
+       
+    }
 })
 
 // Modal Variables
